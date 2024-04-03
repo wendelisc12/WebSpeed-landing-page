@@ -1,0 +1,183 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+body{
+    font-family: "Inter", sans-serif !important;
+}
+
+.navbar{
+    background-color: #006eff;
+}
+
+header .nav .nav-link.active, .nav-link:hover{
+    background-color: white;
+    color: #006eff !important;
+}
+
+.nav .nav-link{
+    color: white;
+    font-weight: bold;
+}
+
+#navegacao-header .navbar-brand:hover{
+    color: white;
+}
+
+header .nav{
+    gap: 20px;
+}
+
+.navbar-brand, #web{
+    font-family: Kanit, Helvetica, sans-serif;
+    font-size: 30px !important;
+    color: white;
+    font-style: italic;
+}
+
+section#sobre{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#web{
+    color: #23ff48;
+}
+
+
+#sobre h3{
+    font-family: Kanit, Helvetica, sans-serif;
+}
+
+#beneficios{
+    gap: 30px;
+}
+
+.beneficios-item{
+    border: 1px solid #a8a8a8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.beneficios-item .bi{
+    font-size: 45px !important;
+    color: #006eff;
+}
+
+#planos{
+    background-color: #006effd2;
+    padding: 80px 0;
+}
+
+.titulo{
+    font-family: Kanit, Helvetica, sans-serif;
+}
+
+.plano-item{
+    border: 1px solid rgb(240, 240, 240);
+    background-color: white;
+    width: 250px !important;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slick-slide{
+    margin: 0 10px;
+}
+
+.card a.btn{
+    width: 100%;
+    font-weight: bold;
+}
+
+.consultar{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.consultar:hover{
+    text-decoration: underline;
+}
+
+.card h3 span{
+    font-size: 0.7em;
+}
+
+.card h3{
+    font-weight: 300;
+}
+
+.card h2{
+    color: #1d1d1d;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+.card h2 span{
+    color: #006eff;
+}
+
+#beneficios-planos .nav-link{
+    color: #1d1d1d;
+}
+
+#beneficios-planos .nav-link:hover{
+    color: white !important;
+    background-color: #006eff;
+}
+
+#beneficios-planos .nav .active{
+    color: white;
+}
+
+#beneficios-planos-items{
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#beneficios-planos-items span{
+    color: #006eff;
+    font-weight: bold;
+}
+
+.contato-infos{
+    color: #006eff;
+}
+
+.contato-infos i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.logo-footer{
+    font-size: 1.5em;
+}
+
+footer{
+    background-color: #006eff;
+    color: white;
+    padding: 20px 0;
+}
+
+@media screen and (max-width:767px) {
+    #beneficios-planos .tab-pane{
+        margin-top: 10px;
+        font-size: 0.8em;
+    }
+}
