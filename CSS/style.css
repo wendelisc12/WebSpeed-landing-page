@@ -44,6 +44,9 @@ section#sobre{
     color: #23ff48;
 }
 
+.error{
+    color: red;
+}
 
 #sobre h3{
     font-family: Kanit, Helvetica, sans-serif;
